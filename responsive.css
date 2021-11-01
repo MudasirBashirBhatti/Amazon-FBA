@@ -1,0 +1,592 @@
+@media screen and (max-width:900px) {
+    #introducing_amazon {
+        width: 90%;
+    }
+    .Introducing_amazon_head {
+        font-size: 2.3vw;
+    }
+    #Introducing_amazon_content {
+        font-size: 1.33vw;
+    }
+    #Completion_content ol li {
+        font-size: 1.3vw;
+    }
+    #otherNav ul li a {
+        font-size: 1.4vw;
+    }
+    #starting_on {
+        font-size: 1.4vw;
+        padding: 1.3vw 1.6vw;
+        width: 57%;
+    }
+    #head {
+        font-size: 4.7vw;
+    }
+    
+    #online_training {
+        padding: .8vw 0 1.7vw;
+        font-size: 1.1vw;
+    }
+    del {
+        font-size: 1.9vw;
+        padding-right: 3vw;
+    }
+    #price {
+        width: 90%;
+    }
+    .presentation img {
+        width: 6vw;
+    }
+    .text_with_img {
+        font-size: 1.5vw;
+    }
+    #bottom_img {
+        width: 86%;
+    }
+    #completion_img {
+        width: 29vw;
+        height: 29vw;
+        margin-right: 2vw;
+    }
+    #completion_img img {
+        width: 29vw;
+        right: -3vw;
+    }
+    #successful_completion {
+        width: 95%;
+    }
+
+    /* why us .................... */
+    #why_us {
+        width: 95%;
+    }
+    #why_us_img img {
+        width: 29vw;
+        right: -3vw;
+    }
+    #why_us_img{
+        width: 29vw;
+        height: 29vw;
+        margin-right: 2vw;
+        position: relative;
+        top: 3vw;
+    }
+    #why_us_text {
+        width: 64%;
+    }
+    #why_us_content ol li {
+        font-size: 1.2vw;
+        line-height: 2.3vw;
+    }
+    .content {
+        font-size: 1.5vw;
+        line-height: 2.3vw;
+    }
+    .num_heading {
+        font-size: 2.5vw;
+    }
+    .counting {
+        padding: 1vw 1.2vw;
+        height: 3vw;
+        font-size: 2.5vw;
+        top: -1vw;
+        left: -2vw;
+    }
+    #footer_left_section {
+        width: 33vw;
+        font-size: 1.4vw;
+        line-height: 1.7vw;
+        text-align: justify;
+    }
+    .footer_heading_txt {
+        font-size: 1.3vw;
+    }
+    .num {
+        font-size: 1.2vw;
+    }
+    .contactUpper {
+        padding-bottom: 1.4vw;
+        font-size: 1vw;
+    }
+    .offices {
+        font-size: 1.4vw;
+        line-height: 2vw;
+    }
+    .my_email a {
+        padding-left: 1vw;
+        padding-left: 1vw;
+        font-size: 1.4vw;
+    }
+    #Parent_footer {
+        padding: 3vw 3vw;
+    }
+}
+
+/* .................................................  */
+@media screen and (max-width:769px) {
+.hamburger {
+    display: block;
+    z-index: 5;
+}
+.myclass {
+    display: flex;
+}
+
+    #otherNav ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: var(--roboto);
+        font-size: 2vw;
+        font-weight: 600;
+        line-height: 5vw;
+        padding: 0.1vw 3vw;
+    }
+
+    #otherNav ul {
+        flex-direction: column;
+        margin-top: 58vw;
+        /* align-items: end; */
+        background-color: rgb(255, 255, 255);
+        align-items: left;
+        width: 35vw;
+        padding: 2vw;
+        z-index: 3;
+
+    }
+    #otherNav ul{
+        display:none;
+    }
+    .hamopen{
+        display: block;
+    }
+    #otherNav ul li {
+        width: 100%;
+        height: 7vw;
+    }
+    #applyNow_btn{
+        margin: 1.4vw auto;
+    }
+    #successful_completion {
+        margin: 10vw auto;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Completion_content ol{
+        padding-left:4vw;
+    }
+
+    /* top three columns  */
+    .presentation {
+        margin-right:initial;
+        flex-direction: column;
+    }
+    .presentation img {
+        width: 7vw;
+        margin-bottom: 2vw;
+    }
+    #bottom_img {
+        width: 95%;
+    }
+    .text_with_img {
+        font-size: 2.8vw;
+        line-height: 4vw;
+        text-align: center;
+    }
+
+    /* cards section  */
+    #completion_img {
+        width: 54vw;
+        height: 45vw;
+        border: 0.9vw dashed #FFCD00;
+        margin-bottom:initial;
+        margin-top: 11vw;
+    }
+    #completion_img img {
+        width: 47vw;
+        right: 2.6vw;
+        top: -6vw;
+    }
+    #successful_completion {
+        width: 85%;
+    }
+    #Completion_head {
+        font-size: 3.5vw;
+    }
+    #Completion_content ol li {
+        font-size: 2.8vw;
+        line-height: 6vw;
+        list-style-position: outside;
+    }
+
+
+    /* why us section for mobile  */
+    #why_us {
+        margin: 5vw auto;
+        width: 85%;
+        flex-direction: column;
+        align-items: initial;
+    }
+    #why_us_content ol{
+        padding-left: 4vw;
+    }
+    #why_us_img {
+        width: 54vw;
+        height: 45vw;
+        border: 0.9vw dashed #FFCD00;
+        margin: 5vw auto;
+    }
+    #why_us_img img {
+            width: 47vw;
+            right: 1vw;
+            top: -6vw;
+    }
+    #why_us_head {
+        font-size: 3.5vw;
+    }
+    #why_us_content ol li {
+        font-size: 2.8vw;
+        line-height: 6vw;
+        list-style-position:outside;
+        width: 156%;
+    }
+
+/* numbering section  */
+#numbering {
+	display: flex;
+    flex-direction: column;
+}
+.all_boxes {
+	display: flex;
+	position: relative;
+	margin-left: 3vw;
+	margin-bottom: 3vw;
+}
+.numbering_content {
+	margin-left: 15vw;
+	margin-bottom: 0vw;
+}
+.num_heading {
+	font-size: 4.5vw;
+}
+.content {
+	font-size: 2.5vw;
+	line-height: 4.3vw;
+}
+.counting {
+	padding: 1vw 2.2vw;
+	height: 7vw;
+	font-size: 4vw;
+	top: -1vw;
+	left: 2vw;
+}
+.ten_box{
+    margin-top:0vw;
+}
+
+
+
+    /* footer section starts from here  */
+    #Parent_footer {
+        flex-direction: column;
+    }
+    #center_and_right {
+        width: initial;
+        margin-top: 6vw;
+    }
+    .footer_heading_txt {
+        font-size: 2.8vw;
+    }
+    .num {
+        font-size: 1.8vw;
+    }
+    .offices {
+        font-size: 2.4vw;
+        line-height: 3.6vw;
+    }
+    .contactUpper img {
+        padding-right: 2vw;
+        width: 2vw;
+    }
+    .footer_center_section{
+        margin-bottom: 3vw;
+    }
+    .my_email a {
+        padding-left: 2vw;
+        font-size: 1.9vw;
+        letter-spacing: .2vw;
+    }
+    #emails img {
+        width: 2.3vw;
+    }
+    .my_email {
+        line-height: 1vw;
+        margin-bottom: 1.7vw;
+    }
+    #Parent_footer {
+        padding: 3vw 6vw;
+    }
+    #footer_left_section {
+        width: initial;
+        font-size: 2.4vw;
+        line-height: 3.9vw;
+        text-align: justify;
+        padding-right: 0%;
+    }
+    .footer_heading_txt hr {
+        margin: 2vw 0;
+    }
+    #footer_left_section img {
+        width: 21vw;
+        padding: 5vw 0;
+        position: absolute;
+        top: -3.3vw;
+    }
+    .copyText {
+        font-size: 2vw;
+    }
+    #emails {
+        margin: 0vw 0 0vw;
+        font-size: 1vw;
+    }
+    .hamburg_container{
+        display: block;
+    }
+    #introducing_amazon {
+        width: 90%;
+        flex-direction: column;
+    }
+    .Introducing_amazon_head {
+        font-size: 2.8vw;
+    }
+    #Introducing_amazon_content {
+        font-size: 2.4vw;
+        line-height: 5vw;
+        text-align: left;
+        padding-top: 1.6vw;
+    }
+    #introducing_amazon img {
+        width: 15vw;
+        margin-bottom: 4vw;
+    }
+    #after_succesfully_text {
+        font-size: 2.7vw;
+        text-align: center;
+        width: 90vw;
+    }
+    #Apply_now a {
+        font-size: 2vw;
+    }
+    #after_succesfully {
+        font-size: 2vw;
+        padding: 12vw;
+    }
+    #logo img {
+        width: 18vw;
+    }
+    #otherNav {
+        height: 4vw;
+    }
+    #footer_left_section {
+        padding-top: 9.5vw;
+    }
+
+}
+
+/* .........................................................  */
+@media screen and (max-width:480px) {
+    .hamburger {
+        margin: 0 auto;
+        margin-top: 0vw;
+    }
+    #Pencil_background {
+        height: 93vw;
+    }
+    #head {
+        font-size: 6.7vw;
+    }
+    #starting_on {
+        font-size: 3vw;
+        padding: 3vw 1vw;
+        width: 57%;
+    }
+    #inside_img {
+        width: 80%;
+    }
+    #online_training {
+        padding: 4vw 1.7vw;
+        font-size: 3.1vw;
+        text-shadow: none;
+    }
+    #originalPrice {
+        font-size: 5.6vw;
+    }
+    #limitedTime {
+        font-size: 2.56vw;
+    }
+    del {
+        font-size: 3.9vw;
+        padding-right: 18vw;
+    }
+    #logo img {
+        width: 24vw;
+    }
+    #inside_img {
+        top: 41%;
+    }
+    #otherNav {
+        height: 9vw;
+    }
+    #introducing_amazon {
+        width: 98%;
+    }
+    #introducing_amazon img {
+        width: 21vw;
+    }
+    .Introducing_amazon_head {
+        font-size: 4.8vw;
+    }
+    #Introducing_amazon_content {
+        font-size: 3.4vw;
+        line-height: 6vw;
+    }
+    #after_succesfully_text {
+        font-size: 3.5vw;
+        width: 95vw;
+        line-height: 5vw;
+        text-align: center;
+    }
+    #after_succesfully {
+        padding: 15vw;
+    }
+    #Apply_now a {
+        font-size: 3vw;
+        padding: 2vw 5vw;
+        border-radius: 5vw;
+    }
+    #Completion_content ol li {
+        font-size: 3.8vw;
+        line-height: 6vw;
+        list-style-position: outside;
+        text-align: justify;
+    }
+    #Completion_head {
+        font-size: 4vw;
+    }
+    #why_us_head {
+        font-size: 4.5vw;
+    }
+    #why_us_content ol li {
+        font-size: 3.8vw;
+        line-height: 6vw;
+        list-style-position: outside;
+        width: 159%;
+        text-align: justify;
+    }
+
+    .num_heading {
+        font-size: 5vw;
+    }
+    .content {
+        font-size: 3.4vw;
+        line-height: 6vw;
+    }
+    #successful_completion {
+        width: 92%;
+    }
+    #why_us {
+        width: 92%;
+    }
+    #footer_left_section {
+        width: initial;
+        font-size: 3.4vw;
+        line-height: 5.9vw;
+        text-align: justify;
+        padding-right: 0%;
+        padding-top: 13vw;
+    }
+    #footer_left_section img {
+        width: 35vw;
+        top: -3.3vw;
+    }
+    #center_and_right {
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer_heading_txt {
+        font-size: 4.4vw;
+    }
+    .footer_heading_txt hr {
+        width: 100%;
+    }
+    .num {
+        font-size: 3.8vw;
+    }
+    .contactUpper img {
+        width: 3vw;
+    }
+    .my_email a {
+        font-size: 3.4vw;
+        line-height: 4vw;
+    }
+    #emails img {
+        width: 4.3vw;
+    }
+    .offices {
+        font-size: 3.4vw;
+        line-height: 6.6vw;
+        padding-left: 7vw;
+    }
+    .locations img {
+        left: 0.3vw;
+        width: 5.5vw;
+    }
+    .copyText {
+        font-size: 2.6vw;
+    }
+    .counting {
+        left: 2vw;
+    }
+    .all_boxes {
+        margin-left: -1vw;
+    }
+    .footer_center_section {
+        margin-bottom: 7vw;
+    }
+
+        /* contact us section  */
+        #contect_content {
+            flex-direction: column;
+        }
+
+        #contact_right {
+            width: 100%;
+        }
+        #contact_left {
+            width: 100%;
+        }
+        #attach_recipient {
+            font-size: 3vw;
+        }
+
+
+        #submitNow a {
+            font-size: 4vw;
+            padding: 2vw 6vw;
+            border-radius: 5vw;
+            width: 15vw;
+        }
+        #contact_us_section {
+            padding: 3vw 3vw 6vw;
+        }
+        #contect_content input {
+            margin-bottom: 3vw;
+            padding: 1.2vw 5vw;
+            font-size: 3.4vw;
+        }
+        #contact_heading {
+            font-size: 5vw;
+        }
+}
+
+
